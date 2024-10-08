@@ -10,7 +10,7 @@ interface Location {
 
 export default function HomeScreen() {
 
-  Longdo.apiKey = '689a08b0a311d3c496d0cba1e27c129a'
+  Longdo.apiKey = 'YOUR_API_KEY';
   let map: any;
 
   const onChangeBaseMap = (layer: string) => {
